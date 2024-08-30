@@ -1,0 +1,12 @@
+{
+  "fields":
+  [
+    {"id":
+      {
+        "type": "text",
+        "unique": true,
+        "required": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "basic_data",
+  "fields":
+  [
+    {
+      "title":
+      {
+        "type": "text"
+      },
+      "body":
+      {
+        "type": "text"
+      }
+    }
+  ]
+}
