@@ -11,7 +11,7 @@
           {
             "language": "php",
             "version": ">= 5.3",
-            "path": "fields/id/validate.js"
+            "path": "fields/id/validate.php"
           }
       ]
     },
@@ -26,23 +26,23 @@
           {
             "language": "php",
             "version": ">= 5.3",
-            "path": "fields/string/validate.js"
+            "path": "fields/string/validate.php"
           }
       ]
     },
     {
-      "id": "url",
+      "id": "slug",
       "parent": "string",
       "validators": [
           {
             "language": "js",
             "version": "*",
-            "path": "fields/url/validate.js"
+            "path": "fields/slug/validate.js"
           },
           {
             "language": "php",
             "version": ">= 5.3",
-            "path": "fields/url/validate.js"
+            "path": "fields/slug/validate.php"
           }
       ]
     },
@@ -57,7 +57,7 @@
           {
             "language": "php",
             "version": ">= 5.3",
-            "path": "fields/text/validate.js"
+            "path": "fields/text/validate.php"
           }
       ]
     },
@@ -73,7 +73,7 @@
           {
             "language": "php",
             "version": ">= 5.3",
-            "path": "fields/rich_text/validate.js"
+            "path": "fields/rich_text/validate.php"
           }
       ]
     }
