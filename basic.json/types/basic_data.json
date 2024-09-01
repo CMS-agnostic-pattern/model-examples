@@ -1,12 +1,11 @@
 {
   "fields":
   [
-    {"id":
-      {
-        "type": "text",
-        "unique": true,
-        "required": true
-      }
+    {
+      "id": "id",
+      "type": "id",
+      "unique": true,
+      "required": true
     }
   ]
 }

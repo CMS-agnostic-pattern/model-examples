@@ -1,24 +1,20 @@
 {
-    "types": [
-      {
-        "basic_entity": {
-          "path": "types/basic_entity.json"
-        }
-      },
-      {
-        "basic_page": {
-          "path": "types/basic_page.json"
-        }
-      },
-      {
-        "basic_tree_item": {
-          "path": "types/basic_tree_item.json"
-        }
-      },
-      {
-        "basic_menu_item": {
-          "path": "types/basic_menu_item.json"
-        }
-      }
-    ]
-  }
+  "parent": "basic_data",
+  "fields":
+  [
+    {
+      "id": "title",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "content",
+      "type": "rich_text"
+    },
+    {
+      "id": "slug",
+      "type": "slug",
+      "required": true
+    }
+  ]
+}

@@ -1,24 +1,99 @@
 {
-  "id": [
+  "fields": [
     {
-      "type": {
-        "path": "types/basic_entity.json"
-      }
+      "id": "id",
+      "validators": [
+          {
+            "language": "js",
+            "version": "*",
+            "path": "fields/id/validate.js"
+          },
+          {
+            "language": "php",
+            "version": ">= 5.3",
+            "path": "fields/id/validate.js"
+          }
+      ]
     },
     {
-      "basic_page": {
-        "path": "types/basic_page.json"
-      }
+      "id": "string",
+      "validators": [
+          {
+            "language": "js",
+            "version": "*",
+            "path": "fields/string/validate.js"
+          },
+          {
+            "language": "php",
+            "version": ">= 5.3",
+            "path": "fields/string/validate.js"
+          }
+      ]
     },
     {
-      "basic_tree_item": {
-        "path": "types/basic_tree_item.json"
-      }
+      "id": "url",
+      "parent": "string",
+      "validators": [
+          {
+            "language": "js",
+            "version": "*",
+            "path": "fields/url/validate.js"
+          },
+          {
+            "language": "php",
+            "version": ">= 5.3",
+            "path": "fields/url/validate.js"
+          }
+      ]
     },
     {
-      "basic_menu_item": {
-        "path": "types/basic_menu_item.json"
-      }
+      "id": "text",
+      "validators": [
+          {
+            "language": "js",
+            "version": "*",
+            "path": "fields/text/validate.js"
+          },
+          {
+            "language": "php",
+            "version": ">= 5.3",
+            "path": "fields/text/validate.js"
+          }
+      ]
+    },
+    {
+      "id": "rich_text",
+      "parent": "text",
+      "validators": [
+          {
+            "language": "js",
+            "version": "*",
+            "path": "fields/rich_text/validate.js"
+          },
+          {
+            "language": "php",
+            "version": ">= 5.3",
+            "path": "fields/rich_text/validate.js"
+          }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "id": "basic_data",
+      "path": "types/basic_data.json"
+    },
+    {
+      "id": "basic_page",
+      "path": "types/basic_page.json"
+    },
+    {
+      "id": "basic_tree_item",
+      "path": "types/basic_tree_item.json"
+    },
+    {
+      "id": "basic_menu_item",
+      "path": "types/basic_menu_item.json"
     }
   ]
 }
