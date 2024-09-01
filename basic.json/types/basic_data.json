@@ -1,8 +1,12 @@
 {
+  "id": "basic_data",
+  "name": "Data",
+  "hidden": true,
   "fields":
   [
     {
       "id": "id",
+      "name": "ID",
       "type": "id",
       "unique": true,
       "required": true
