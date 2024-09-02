@@ -1,7 +1,6 @@
 {
   "id": "basic_tree_item",
   "name": "Tree Item",
-  "hidden": true,
   "fields":
   [
     {

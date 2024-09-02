@@ -2,6 +2,7 @@
   "id": "basic_menu_item",
   "name": "Menu Item",
   "parent": "basic_tree_item",
+  "status": "active",
   "fields":
   [
     {

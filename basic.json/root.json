@@ -12,7 +12,7 @@
     },
     {
       "id": "slug",
-      "parent": "string",
+      "element": "textfield",
       "description": "Relative path."
     },
     {
@@ -22,12 +22,12 @@
     },
     {
       "id": "rich_text",
-      "parent": "text",
+      "element": "textarea",
       "description": "A rich text area. Can include limited HTML markup."
     },
     {
       "id": "html",
-      "parent": "text",
+      "element": "textarea",
       "description": "HTML markup."
     },
     {

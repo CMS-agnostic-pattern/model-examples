@@ -2,6 +2,7 @@
   "id": "basic_page",
   "name": "Page",
   "parent": "basic_data",
+  "status": "active",
   "fields":
   [
     {
