@@ -1,0 +1,14 @@
+{
+  "id": "basic_data",
+  "name": "Data",
+  "fields":
+  [
+    {
+      "id": "id",
+      "name": "UUID",
+      "type": "uuid",
+      "unique": true,
+      "required": true
+    }
+  ]
+}

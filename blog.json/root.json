@@ -1,0 +1,18 @@
+{
+  "fields": [
+    {
+      "id": "uuid",
+      "element": "textfield",
+      "description": "A Universally Unique Identifier (UUID) is a 128-bit label used for information in computer systems."
+    },
+    {
+      "id": "date",
+      "element": "date",
+      "description": "A date control."
+    }
+  ],
+  "types": [
+    "types/basic_data.json",
+    "types/blog_page.json"
+  ]
+}
